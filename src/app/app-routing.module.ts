@@ -10,7 +10,8 @@ const routes: Routes = [
     path: '', //Si el path es vacio, redirige a admin
     redirectTo: 'admin', //Redirige a admin
     pathMatch: 'full'
-  },
+  }
+
 ];
 
 @NgModule({
